@@ -1,0 +1,49 @@
+body{
+    width: 90%;
+    margin: 5%;
+    background-color: rgb(210, 225, 210);
+}
+.container{
+    display: grid;
+    grid-template-areas: 
+    "main main main main"
+    "main main main main";
+    grid-gap: 5%;
+    justify-items: center;
+}
+.item{
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 2px;
+    padding: 5%;
+    height: 350px;
+}
+i{
+    font-size: 3em;
+    text-align: center;
+    color: skyblue;
+}
+h2{
+    font-size: 1.5em;
+    text-align: center;
+    font-family: "Lora", serif;
+    font-weight: 400px;
+    font-display: swap;
+}
+h2, p, button{
+    place-self: center;
+}
+button, p{
+    font-size: 0.9em;
+    font-family: 'Merriweather', serif;
+    font-weight: 300px;
+    font-display: swap;
+}
+button{
+    border: none;
+}
+button:hover{
+    border: 1px solid skyblue;
+    border-radius: 25px;
+    background-color: skyblue;
+}
