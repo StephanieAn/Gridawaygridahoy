@@ -63,10 +63,30 @@ button:hover{
     font-size: 1.3em;
 }
 @media screen and (max-width: 300px) {
+    .container{
+        grid-template-columns: minmax(auto, 1fr);
+    }
     .item{
         height: 450px;
     }
+    h2{
+        height: 100px;
+    }
     p {
         height: 220px;
+    }
+}
+@media screen and (min-width: 300px) and (max-width: 768px){
+    .container{
+        grid-template-columns: repeat(3, minmax(auto, 1fr));
+    }
+    .item{
+        height: 650px;
+    }
+    h2{
+        height: 100px;
+    }
+    p{
+        height: 400px;
     }
 }
