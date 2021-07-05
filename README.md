@@ -1,6 +1,6 @@
 # Grid away, grid ahoy !
 
-###### made the 5th of Jully 2021
+###### made on July 5th, 2021
 
 Explanation:
 -------------
